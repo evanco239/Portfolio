@@ -14,7 +14,7 @@ body{
 
 /* showcase section */
 #showcase{
-    background: url('../images/showcasecopy.png') center/cover no-repeat;
+    background: url('../images/showcasecopy.jpg') center/cover no-repeat;
     height: 100vh;
     background-attachment: fixed;
     text-align: center;
@@ -51,6 +51,14 @@ body{
 
 #showcase .social-icons i:hover{
     color: #333;
+}
+
+#showcase #page-down{
+    text-align: center;
+    padding: 15px 20px;
+    transition: padding .3s ease-in;
+    font-size: 2rem;
+    cursor: pointer;
 }
 
 
@@ -123,3 +131,66 @@ body{
     margin-bottom: 15px;
 }
 
+/* media queries for responsive */
+@media(max-width: 860px){
+    #showcase h1{ 
+        font-size: 2.5rem;
+    }
+    #showcase ul li{
+        margin: 90px 25px 0 25px;
+        font-size: 1.5rem;
+    }
+    #showcase .social-icons i {
+        font-size: 4rem;
+    }
+    #skills{
+        font-size: 1.8rem;
+        height: 150px;
+        padding: 0 10px;
+    }
+    #portfolio .heading h1{
+        font-size: 2.5rem;
+        padding-bottom: 60px;
+    }
+    
+    .cards{
+        grid-template-columns: 1fr;
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        border-bottom: #aaa solid 1px;
+        padding: 30px 0;
+    }
+    .cards .project-summary h1{
+        display: none;
+    }
+    .cards .project-summary p{
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .technology-used h1{
+        display: none;
+    }
+
+
+}
+
+@media(max-width: 600px){
+
+    #showcase ul li{
+        margin: 90px 10px 0 10px;
+        font-size: 1.5rem;
+    }
+
+    #showcase .social-icons i {
+        font-size: 3rem;
+        list-style: disc;
+    }
+
+    .cards .project-summary p{
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+}
