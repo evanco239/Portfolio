@@ -115,6 +115,9 @@ body{
 .cards .technology-used ul{
     list-style: none;
 }
+.cards .technology-used ul li:nth-child(even){
+    background: rgb(231, 231, 231);
+}
 
 .cards .project-summary h1{
     margin-bottom: 15px;
