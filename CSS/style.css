@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6rem;
+    color: #333;
+}
+
+/* showcase section */
+#showcase{
+    background: url('../images/showcasecopy.png') center/cover no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    text-align: center;
+    border-bottom: #666 1px solid;
+}
+
+#showcase h1{ 
+    font-size: 5rem;
+    padding-top: 60px;
+}
+
+#showcase ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 90px 40px 0 40px;
+    font-size: 2rem;
+}
+
+#showcase ul li:hover{
+    color: #3a95b9;
+    border-bottom: #3a95b9 solid 1px;
+    transition: .3s all ease-in;
+}
+
+#showcase a{
+    text-decoration: none;
+    color: #666;
+}
+#showcase .social-icons i {
+    font-size: 5rem;
+    color: #3a95b9;
+    margin: 130px 40px;
+}
+
+#showcase .social-icons i:hover{
+    color: #333;
+}
+
+
+/* Skills section */
+#skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align:center;
+    background: #eee;
+    height: 300px;
+    font-size: 2.5rem;
+    border-bottom: #666 1px solid;
+    align-content: center;
+    color: #3a95b9;
+    padding: 0 10px;
+}
+
+#skills .grid-element:hover{
+    color: #333;
+}
+
+#skills i{
+    margin-bottom: 20px;
+}
+
+/* portfolio section */
+#portfolio{
+    background: #eee;
+    padding-top: 40px;
+}
+#portfolio .heading h1{
+    color: #444;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 60px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 300px;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: #aaa solid 1px;
+    padding: 30px 0;
+}
+
+.cards .screenshot{
+    text-align: center;
+    align-content: center;
+}
+
+.cards .project-summary{
+    text-align: center;
+    padding: 0 10px;
+}
+.cards .technology-used{
+    text-align: center;
+    padding: 0 10px;
+    list-style: none;
+}
+.cards .technology-used ul{
+    list-style: none;
+}
+
+.cards .project-summary h1{
+    margin-bottom: 15px;
+}
+
