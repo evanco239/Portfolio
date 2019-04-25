@@ -6,23 +6,82 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" href="images/favicon-img/favicon-16x16.png" />
     <!-- favicon / mobile view -->
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon-img/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon-img/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon-img/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon-img/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon-img/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon-img/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon-img/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon-img/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon-img/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon-img/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-img/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-img/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon-img/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/favicon-img/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="images/favicon-img/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="images/favicon-img/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="images/favicon-img/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="images/favicon-img/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="images/favicon-img/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="images/favicon-img/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="images/favicon-img/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="images/favicon-img/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon-img/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="images/favicon-img/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="images/favicon-img/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon-img/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="images/favicon-img/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
     <link rel="stylesheet" href="./CSS/style.css" />
 
     <link
@@ -35,6 +94,32 @@
     <title>Evan O'Neill</title>
   </head>
   <body>
+
+    <!-- sticky nav -->
+    <div id="navbar" class="sticky">
+      <h1><a href="#"> Evan O'Neill</a></h1>
+      <ul id="sticky-nav-links"> 
+        <a href="#skills"><li>Skills</li></a
+        >
+        <a href="#portfolio"><li>Portfolio</li></a
+        >
+        <a href="#contact"> <li>Contact</li></a>
+      </ul>
+      <div id="hamburger">
+          <i class="fas fa-bars"></i>
+      </div>
+      <div id="links">
+          <ul id="mobile-nav-links"> 
+              <a href="#skills"><li>Skills</li></a
+              >
+              <a href="#portfolio"><li>Portfolio</li></a
+              >
+              <a href="#contact"> <li>Contact</li></a>
+            </ul>
+      </div>
+    </div>
+
+    <!-- showcase section -->
     <section id="showcase">
       <h1>Evan O'Neill</h1>
       <ul>
@@ -44,7 +129,7 @@
         >|
         <a href="#contact"> <li>Contact</li></a>
       </ul>
-
+      <!-- social media icons -->
       <div class="social-icons">
         <a href="https://www.linkedin.com/in/evan-oneill/" target="_blank"
           ><i class="fab fa-linkedin"></i
@@ -59,12 +144,13 @@
         ></a>
       </div>
 
+      <!-- attention grabber to scroll down -->
       <div id="page-down">
-        <a href="#skills"><i class="fas fa-chevron-down"></i></a> 
+        <a href="#skills"><i class="fas fa-chevron-down"></i></a>
       </div>
-
     </section>
 
+    <!-- skills icons section -->
     <section id="skills">
       <div class="grid-element">
         <i id="html" class="fab fa-html5"></i>
@@ -80,6 +166,7 @@
       </div>
     </section>
 
+    <!-- portfolio  -->
     <section id="portfolio">
       <span class="heading"><h1>Recent Projects</h1></span>
       <div class="cards" id="project1">
@@ -97,8 +184,10 @@
         <div class="project-summary">
           <h1>Full Stack</h1>
           <p>
-            Application designed to be used by a group of people with their own logins to track expenses. 
-            Notification panel updates realtime when a user joins or creates an item. This app is currently in development not production.
+            Application designed to be used by a group of people with their own
+            logins to track expenses. Notification panel updates realtime when a
+            user joins or creates an item. This app is currently in development
+            not production.
           </p>
         </div>
         <div class="technology-used">
@@ -114,6 +203,7 @@
         </div>
       </div>
 
+      <!-- portfolio 2 -->
       <div class="cards" id="project2">
         <div class="screenshot">
           <h1>Shopping List</h1>
@@ -148,6 +238,7 @@
           </ul>
         </div>
       </div>
+      <!-- portfolio 3 -->
       <div class="cards" id="project3">
         <div class="screenshot">
           <h1>Website Template</h1>
@@ -178,13 +269,12 @@
           </ul>
         </div>
       </div>
+      <!-- portfolio 4 -->
       <div class="cards" id="project4">
         <div class="screenshot">
           <h1>Filterable List</h1>
           <br />
-          <a
-            href="https://evanco239.github.io/GitHub-List/"
-            target="_blank"
+          <a href="https://evanco239.github.io/GitHub-List/" target="_blank"
             ><img
               src="./images/Github List.png"
               alt="Github API List"
@@ -195,8 +285,9 @@
         <div class="project-summary">
           <h1>Front End</h1>
           <p>
-            Static page created to demonstrate working with the Fetch API pulling from the Github API. 
-            Included Vanilla JavaScript to filter the list of users.
+            Static page created to demonstrate working with the Fetch API
+            pulling from the Github API. Included Vanilla JavaScript to filter
+            the list of users.
           </p>
         </div>
         <div class="technology-used">
@@ -209,6 +300,7 @@
           </ul>
         </div>
       </div>
+      <!-- github of portfolios -->
       <div class="cards" id="project5">
         <div class="screenshot">
           <h1>Github Project Repo</h1>
@@ -226,7 +318,10 @@
         <div class="project-summary">
           <h1>Front End Development</h1>
           <p>
-            Github repo with 25+ examples of tutorials and builds using various functions of vanilla JavaScript and CSS. Projects range from beginner to more advance function but provide a overview of knowledge in front end development.
+            Github repo with 25+ examples of tutorials and builds using various
+            functions of vanilla JavaScript and CSS. Projects range from
+            beginner to more advance function but provide a overview of
+            knowledge in front end development.
           </p>
         </div>
         <div class="technology-used">
@@ -241,13 +336,182 @@
           </ul>
         </div>
       </div>
+      <div id="resume">
+        <div class="screenshot">
+          <a
+            href="https://github.com/evanco239/Front-End-Dev-Examples"
+            target="_blank"
+            ><img
+              src="https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-19/288981919427_f45f04edd92902a96859_512.png"
+              alt="Resume"
+              height="200px"
+              style="border-radius:10px;"
+          /></a>
+        </div>
+        <div class="project-summary">
+         <p> Follow image to view/download full resume.</p>
+        </div>
+        
+      </div>
     </section>
+
+    <!-- contact section using form and processing from mailchimp-->
     <section id="contact">
-
-
+      <h1>Contact Me</h1>
+      <div id="joinTeam">
+        <!-- Begin Mailchimp Signup Form -->
+        <link
+          href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
+          rel="stylesheet"
+          type="text/css"
+        />
+        <style type="text/css">
+          #mc_embed_signup {
+            background: #eee;
+            clear: left;
+            font: 14px Helvetica, Arial, sans-serif;
+            color: #294b58;
+          }
+          /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
+        <div id="mc_embed_signup">
+          <form
+            action="https://gmail.us20.list-manage.com/subscribe/post?u=584e0095f81c7f2725c82949c&amp;id=fe19e416e0"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate"
+            target="_blank"
+            novalidate
+          >
+            <div id="mc_embed_signup_scroll">
+              <div class="indicates-required">
+                <span class="asterisk">*</span> indicates required
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-NAME">Name (First and Last) </label>
+                <input
+                  type="text"
+                  value=""
+                  name="NAME"
+                  class=""
+                  id="mce-NAME"
+                />
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-EMAIL"
+                  >Email Address <span class="asterisk">*</span>
+                </label>
+                <input
+                  type="email"
+                  value=""
+                  name="EMAIL"
+                  class="required email"
+                  id="mce-EMAIL"
+                />
+              </div>
+              <div class="mc-field-group size1of2">
+                <label for="mce-PHONE">Phone Number </label>
+                <input
+                  type="text"
+                  name="PHONE"
+                  class=""
+                  value=""
+                  id="mce-PHONE"
+                />
+              </div>
+              <div class="mc-field-group input-group">
+                <strong>How can I help you? </strong>
+                <ul>
+                  <li>
+                    <input
+                      type="radio"
+                      value="Join my team!"
+                      name="MMERGE3"
+                      id="mce-MMERGE3-0"
+                    /><label for="mce-MMERGE3-0"> Join my team!</label>
+                  </li>
+                  <li>
+                    <input
+                      type="radio"
+                      value="Build a project for me!"
+                      name="MMERGE3"
+                      id="mce-MMERGE3-1"
+                    /><label for="mce-MMERGE3-1"> Build a project for me!</label>
+                  </li>
+                  <li>
+                    <input
+                      type="radio"
+                      value="Other"
+                      name="MMERGE3"
+                      id="mce-MMERGE3-2"
+                    /><label for="mce-MMERGE3-2"> Other</label>
+                  </li>
+                </ul>
+              </div>
+              <div id="mce-responses" class="clear">
+                <div
+                  class="response"
+                  id="mce-error-response"
+                  style="display:none"
+                ></div>
+                <div
+                  class="response"
+                  id="mce-success-response"
+                  style="display:none"
+                ></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div
+                style="position: absolute; left: -5000px;"
+                aria-hidden="true"
+              >
+                <input
+                  type="text"
+                  name="b_584e0095f81c7f2725c82949c_fe19e416e0"
+                  tabindex="-1"
+                  value=""
+                />
+              </div>
+              <div class="clear">
+                <input
+                  type="submit"
+                  value="Submit"
+                  name="subscribe"
+                  id="mc-embedded-subscribe"
+                  class="button"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <script
+          type="text/javascript"
+          src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+        ></script
+        ><script type="text/javascript">
+          (function($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[1] = "NAME";
+            ftypes[1] = "text";
+            fnames[0] = "EMAIL";
+            ftypes[0] = "email";
+            fnames[4] = "PHONE";
+            ftypes[4] = "phone";
+            fnames[3] = "MMERGE3";
+            ftypes[3] = "radio";
+          })(jQuery);
+          var $mcj = jQuery.noConflict(true);
+        </script>
+        <!--End mc_embed_signup-->
+      </div>
     </section>
 
-    <div style="height: 600px;"></div>
+    <footer id="footer">
+      Evan O'Neill &copy; 2019  -  Phone: (434)-996-9619
+    </footer>
 
     <script src="./JS/main.js"></script>
   </body>
