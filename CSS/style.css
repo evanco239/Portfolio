@@ -298,6 +298,10 @@ body {
   #hamburger {
     display: block;
   }
+  #showcase {
+    background-attachment: scroll;
+
+  }
   #showcase ul li {
     margin: 90px 10px 0 10px;
     font-size: 1.5rem;

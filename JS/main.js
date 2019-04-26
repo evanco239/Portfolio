@@ -16,7 +16,6 @@ window.onscroll = () => {
 
 // toggle display class on hamburger menu
 hamburger.addEventListener("click", () => {
-  console.log(mobileLinks.style.display);
   if (mobileLinks.style.display == "none" || mobileLinks.style.display == "") {
     mobileLinks.style.display = "block";
   } else {
